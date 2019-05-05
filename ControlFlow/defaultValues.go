@@ -10,7 +10,10 @@ func main() {
 	var b int
 	var d string
 	fmt.Println(a)
+ 	d=	`John said "My name is john"`
 	fmt.Println(b)
 	fmt.Println(d)
+	fmt.Println(x)
+	x=23
 	fmt.Println(x)
 }
