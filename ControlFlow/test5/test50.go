@@ -24,4 +24,10 @@ func main(){
 	for _,v:=range p.address{
 		fmt.Println(v)
 	}
+
+	m:= map[string] person{
+		p.secondName:p,
+	}
+	fmt.Println(m)
+
 }
