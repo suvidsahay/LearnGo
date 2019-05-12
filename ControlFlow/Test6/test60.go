@@ -5,6 +5,10 @@ import "fmt"
 func main(){
 	fmt.Println(foo())
 	fmt.Println(bar())
+	f:=func() {
+		fmt.Println("In anonymous function")
+	}
+	f()
 }
 
 func foo() int{
